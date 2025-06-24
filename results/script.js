@@ -186,7 +186,7 @@
           <td>${vuln.description}</td>
           <td>${vuln.solution}</td>
           <td>${exploited}</td>
-          <td>${vuln.vector}</td>
+          <td>${vuln.attackVector}</td>
         `;
         tbody.appendChild(tr);
       });
