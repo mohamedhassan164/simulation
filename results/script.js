@@ -20,7 +20,7 @@
         description: "Improper UI frame restrictions allow clickjacking.",
         solution: "Use X-Frame-Options or CSP headers.",
         severity: "MEDIUM",
-        attackVector: "NETWORK"
+        attackVector: "LOCAL"
     },
     {
         name: "CWE-1275: Sensitive Cookie in HTTPS Session Without 'Secure' Attribute",
@@ -44,7 +44,7 @@
         description: "Inconsistent data interpretation between components.",
         solution: "Ensure consistent parsing across components.",
         severity: "LOW",
-        attackVector: "NETWORK"
+        attackVector: "LOCAL"
     },
     {
         name: "CWE-525: Use of Web Browser Cross-Domain Capabilities",
@@ -76,7 +76,7 @@
         description: "Sensitive headers can leak private data.",
         solution: "Avoid putting credentials in HTTP headers.",
         severity: "HIGH",
-        attackVector: "NETWORK"
+        attackVector: "LOCAL"
     },
     {
         name: "CWE-693: Protection Mechanism Failure",
@@ -132,7 +132,7 @@
         description: "URL redirection leads to attacker-controlled domains.",
         solution: "Validate all redirect targets.",
         severity: "HIGH",
-        attackVector: "NETWORK"
+        attackVector: "LOCAL"
     },
     {
         name: "CWE-352: Cross-Site Request Forgery (CSRF)",
@@ -156,7 +156,7 @@
         description: "User input used directly in SQL queries.",
         solution: "Use parameterized queries.",
         severity: "CRITICAL",
-        attackVector: "NETWORK"
+        attackVector: "LOCAL"
     },
     {
         name: "CWE-22: Path Traversal",
