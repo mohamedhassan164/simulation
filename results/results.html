@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vulnerability Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Vulnerability Scan Report</h1>
+    <div id="loading">Scanning <span id="dots">...</span> Please wait </div>
+    <div id="result" style="display:none">
+      <h2>Results for: <a id="scannedUrl" href="#" target="_blank"></a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Vulnerability</th>
+            <th>Severity</th>
+            <th>Description</th>
+            <th>Solution</th>
+            <th>Exploitability</th>
+            <th>Attack Vector</th>
+          </tr>
+        </thead>
+        <tbody id="vulnTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
